@@ -24,7 +24,25 @@
 
 ## PROGRAM:
 
+```
+# SHA hash algorithms. 
+import hashlib 
+
+# initializing string 
+str = "helloworld"
+print("Text: ",str)
+
+# then sending to SHA1() 
+result = hashlib.sha1(str.encode()) 
+
+# printing the equivalent hexadecimal value. 
+print("\nThe hexadecimal equivalent of SHA1 is : ", result.hexdigest()) 
+```
+
 ## OUTPUT:
+
+![Screenshot 2024-09-30 162010](https://github.com/user-attachments/assets/167eeb58-57c9-48a6-884c-bc0d1689fab0)
+
 
 ## RESULT:
   Thus the SHA-1 hashing technique had been implemented successfully.
